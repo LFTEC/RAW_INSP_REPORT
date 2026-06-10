@@ -55,11 +55,17 @@ app.MapGet("/raw_order_insp_report", async (ISapApiController api, HttpContext c
     if(string.IsNullOrEmpty(number))
         return Results.BadRequest("请输入采购订单号");
 
-    var data_string = await api.GetPurchaseOrderInspectionDataAsync(number);
     JsonDataSource jsonDataSource = new JsonDataSource();
-    jsonDataSource.JsonSource = new CustomJsonSource(data_string);
-    jsonDataSource.Fill();
-
+    try
+    {
+        var data_string = await api.GetPurchaseOrderInspectionDataAsync(number);
+        jsonDataSource.JsonSource = new CustomJsonSource(data_string);
+        jsonDataSource.Fill();
+    }
+    catch (Exception ex)
+    {
+        return Results.BadRequest("获取数据时发生错误：" + ex.Message);
+    }
 
     using (var report1 = new raw_insp_report())
     {
