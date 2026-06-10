@@ -7,7 +7,7 @@ RUN apt-get update
 RUN apt-get install -y libc6 libicu-dev libfontconfig1 \
     fontconfig \
     && rm -rf /var/lib/apt/lists/*
-COPY ["NDS_REPORT/fonts/*", "/usr/local/share/fonts/"]
+COPY ["RAW_INSP_REPORT/fonts/*", "/usr/local/share/fonts/"]
 RUN fc-cache -vf
 
 FROM base AS base2
@@ -22,21 +22,21 @@ ARG BUILD_CONFIGURATION=Release
 ARG DEVEXPRESS_LICENSE
 ENV DevExpress_License=$DEVEXPRESS_LICENSE
 WORKDIR /src
-COPY ["NDS_REPORT/NDS_REPORT.csproj", "NDS_REPORT/"]
-RUN dotnet restore "./NDS_REPORT/NDS_REPORT.csproj"
+COPY ["RAW_INSP_REPORT/RAW_INSP_REPORT.csproj", "RAW_INSP_REPORT/"]
+RUN dotnet restore "./RAW_INSP_REPORT/RAW_INSP_REPORT.csproj"
 COPY . .
-WORKDIR "/src/NDS_REPORT"
-RUN dotnet build "./NDS_REPORT.csproj" -c $BUILD_CONFIGURATION -o /app/build
+WORKDIR "/src/RAW_INSP_REPORT"
+RUN dotnet build "./RAW_INSP_REPORT.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # 此阶段用于发布要复制到最终阶段的服务项目
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
 ARG DEVEXPRESS_LICENSE
 ENV DevExpress_License=$DEVEXPRESS_LICENSE
-RUN dotnet publish "./NDS_REPORT.csproj" -c $BUILD_CONFIGURATION -r linux-x64 -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./RAW_INSP_REPORT.csproj" -c $BUILD_CONFIGURATION -r linux-x64 -o /app/publish /p:UseAppHost=false
 
 # 此阶段在生产中使用，或在常规模式下从 VS 运行时使用(在不使用调试配置时为默认值)
 FROM base2 AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "NDS_REPORT.dll"]
+ENTRYPOINT ["dotnet", "RAW_INSP_REPORT.dll"]
