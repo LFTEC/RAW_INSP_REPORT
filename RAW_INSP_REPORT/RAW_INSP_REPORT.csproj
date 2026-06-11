@@ -22,4 +22,10 @@
     <Folder Include="models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="raw_insp_master_report .cs">
+      <SubType>XtraReport</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace SAP.Report
 {
-    partial class raw_insp_report
+    partial class raw_insp_master_report
     {
         /// <summary>
         /// Required designer variable.
@@ -29,34 +29,33 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.DataAccess.Json.CustomJsonSource customJsonSource1 = new DevExpress.DataAccess.Json.CustomJsonSource();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(raw_insp_report));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode1 = new DevExpress.DataAccess.Json.JsonSchemaNode("root", true);
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode2 = new DevExpress.DataAccess.Json.JsonSchemaNode("number", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode3 = new DevExpress.DataAccess.Json.JsonSchemaNode("items", true, DevExpress.DataAccess.Json.JsonNodeType.Array);
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode4 = new DevExpress.DataAccess.Json.JsonSchemaNode("itemId", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode5 = new DevExpress.DataAccess.Json.JsonSchemaNode("material", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode6 = new DevExpress.DataAccess.Json.JsonSchemaNode("materialDesc", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode7 = new DevExpress.DataAccess.Json.JsonSchemaNode("taskGroup", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode8 = new DevExpress.DataAccess.Json.JsonSchemaNode("groupCounter", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode9 = new DevExpress.DataAccess.Json.JsonSchemaNode("inspChars", true, DevExpress.DataAccess.Json.JsonNodeType.Array);
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode10 = new DevExpress.DataAccess.Json.JsonSchemaNode("itemId", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode11 = new DevExpress.DataAccess.Json.JsonSchemaNode("quantitativeInd", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(System.Nullable<bool>));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode12 = new DevExpress.DataAccess.Json.JsonSchemaNode("mstrChar", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode13 = new DevExpress.DataAccess.Json.JsonSchemaNode("charDescr", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode14 = new DevExpress.DataAccess.Json.JsonSchemaNode("decPlaces", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(System.Nullable<long>));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode15 = new DevExpress.DataAccess.Json.JsonSchemaNode("measUnit", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode16 = new DevExpress.DataAccess.Json.JsonSchemaNode("upTolLmt", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode17 = new DevExpress.DataAccess.Json.JsonSchemaNode("lwTolLmt", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode18 = new DevExpress.DataAccess.Json.JsonSchemaNode("categoryName", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode19 = new DevExpress.DataAccess.Json.JsonSchemaNode("targetValue", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
-            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode20 = new DevExpress.DataAccess.Json.JsonSchemaNode("qualitativeAddTxt", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.CustomJsonSource customJsonSource2 = new DevExpress.DataAccess.Json.CustomJsonSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(raw_insp_master_report));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode21 = new DevExpress.DataAccess.Json.JsonSchemaNode("root", true);
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode22 = new DevExpress.DataAccess.Json.JsonSchemaNode("number", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode23 = new DevExpress.DataAccess.Json.JsonSchemaNode("items", true, DevExpress.DataAccess.Json.JsonNodeType.Array);
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode24 = new DevExpress.DataAccess.Json.JsonSchemaNode("itemId", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode25 = new DevExpress.DataAccess.Json.JsonSchemaNode("material", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode26 = new DevExpress.DataAccess.Json.JsonSchemaNode("materialDesc", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode27 = new DevExpress.DataAccess.Json.JsonSchemaNode("taskGroup", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode28 = new DevExpress.DataAccess.Json.JsonSchemaNode("groupCounter", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode29 = new DevExpress.DataAccess.Json.JsonSchemaNode("inspChars", true, DevExpress.DataAccess.Json.JsonNodeType.Array);
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode30 = new DevExpress.DataAccess.Json.JsonSchemaNode("itemId", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode31 = new DevExpress.DataAccess.Json.JsonSchemaNode("quantitativeInd", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(System.Nullable<bool>));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode32 = new DevExpress.DataAccess.Json.JsonSchemaNode("mstrChar", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode33 = new DevExpress.DataAccess.Json.JsonSchemaNode("charDescr", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode34 = new DevExpress.DataAccess.Json.JsonSchemaNode("decPlaces", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(System.Nullable<long>));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode35 = new DevExpress.DataAccess.Json.JsonSchemaNode("measUnit", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode36 = new DevExpress.DataAccess.Json.JsonSchemaNode("upTolLmt", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode37 = new DevExpress.DataAccess.Json.JsonSchemaNode("lwTolLmt", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode38 = new DevExpress.DataAccess.Json.JsonSchemaNode("categoryName", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode39 = new DevExpress.DataAccess.Json.JsonSchemaNode("targetValue", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
+            DevExpress.DataAccess.Json.JsonSchemaNode jsonSchemaNode40 = new DevExpress.DataAccess.Json.JsonSchemaNode("qualitativeAddTxt", true, DevExpress.DataAccess.Json.JsonNodeType.Property, typeof(string));
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
             this.jsonDataSource1 = new DevExpress.DataAccess.Json.JsonDataSource(this.components);
             this.ReportHeader = new DevExpress.XtraReports.UI.ReportHeaderBand();
-            this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
             this.xrRichText2 = new DevExpress.XtraReports.UI.XRRichText();
             this.DetailReport = new DevExpress.XtraReports.UI.DetailReportBand();
             this.Detail1 = new DevExpress.XtraReports.UI.DetailBand();
@@ -84,7 +83,6 @@
             this.qualitativeTech = new DevExpress.XtraReports.UI.CalculatedField();
             this.lwTolLmtStr = new DevExpress.XtraReports.UI.CalculatedField();
             this.UpTolLmtStr = new DevExpress.XtraReports.UI.CalculatedField();
-            ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
@@ -108,46 +106,36 @@
             // jsonDataSource1
             // 
             this.jsonDataSource1.ConnectionName = null;
-            customJsonSource1.Json = resources.GetString("customJsonSource1.Json");
-            this.jsonDataSource1.JsonSource = customJsonSource1;
+            customJsonSource2.Json = resources.GetString("customJsonSource2.Json");
+            this.jsonDataSource1.JsonSource = customJsonSource2;
             this.jsonDataSource1.Name = "jsonDataSource1";
-            jsonSchemaNode9.Nodes.Add(jsonSchemaNode10);
-            jsonSchemaNode9.Nodes.Add(jsonSchemaNode11);
-            jsonSchemaNode9.Nodes.Add(jsonSchemaNode12);
-            jsonSchemaNode9.Nodes.Add(jsonSchemaNode13);
-            jsonSchemaNode9.Nodes.Add(jsonSchemaNode14);
-            jsonSchemaNode9.Nodes.Add(jsonSchemaNode15);
-            jsonSchemaNode9.Nodes.Add(jsonSchemaNode16);
-            jsonSchemaNode9.Nodes.Add(jsonSchemaNode17);
-            jsonSchemaNode9.Nodes.Add(jsonSchemaNode18);
-            jsonSchemaNode9.Nodes.Add(jsonSchemaNode19);
-            jsonSchemaNode9.Nodes.Add(jsonSchemaNode20);
-            jsonSchemaNode3.Nodes.Add(jsonSchemaNode4);
-            jsonSchemaNode3.Nodes.Add(jsonSchemaNode5);
-            jsonSchemaNode3.Nodes.Add(jsonSchemaNode6);
-            jsonSchemaNode3.Nodes.Add(jsonSchemaNode7);
-            jsonSchemaNode3.Nodes.Add(jsonSchemaNode8);
-            jsonSchemaNode3.Nodes.Add(jsonSchemaNode9);
-            jsonSchemaNode1.Nodes.Add(jsonSchemaNode2);
-            jsonSchemaNode1.Nodes.Add(jsonSchemaNode3);
-            this.jsonDataSource1.Schema = jsonSchemaNode1;
+            jsonSchemaNode29.Nodes.Add(jsonSchemaNode30);
+            jsonSchemaNode29.Nodes.Add(jsonSchemaNode31);
+            jsonSchemaNode29.Nodes.Add(jsonSchemaNode32);
+            jsonSchemaNode29.Nodes.Add(jsonSchemaNode33);
+            jsonSchemaNode29.Nodes.Add(jsonSchemaNode34);
+            jsonSchemaNode29.Nodes.Add(jsonSchemaNode35);
+            jsonSchemaNode29.Nodes.Add(jsonSchemaNode36);
+            jsonSchemaNode29.Nodes.Add(jsonSchemaNode37);
+            jsonSchemaNode29.Nodes.Add(jsonSchemaNode38);
+            jsonSchemaNode29.Nodes.Add(jsonSchemaNode39);
+            jsonSchemaNode29.Nodes.Add(jsonSchemaNode40);
+            jsonSchemaNode23.Nodes.Add(jsonSchemaNode24);
+            jsonSchemaNode23.Nodes.Add(jsonSchemaNode25);
+            jsonSchemaNode23.Nodes.Add(jsonSchemaNode26);
+            jsonSchemaNode23.Nodes.Add(jsonSchemaNode27);
+            jsonSchemaNode23.Nodes.Add(jsonSchemaNode28);
+            jsonSchemaNode23.Nodes.Add(jsonSchemaNode29);
+            jsonSchemaNode21.Nodes.Add(jsonSchemaNode22);
+            jsonSchemaNode21.Nodes.Add(jsonSchemaNode23);
+            this.jsonDataSource1.Schema = jsonSchemaNode21;
             // 
             // ReportHeader
             // 
             this.ReportHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrRichText1,
             this.xrRichText2});
-            this.ReportHeader.HeightF = 135.4167F;
+            this.ReportHeader.HeightF = 30.55556F;
             this.ReportHeader.Name = "ReportHeader";
-            // 
-            // xrRichText1
-            // 
-            this.xrRichText1.Font = new DevExpress.Drawing.DXFont("宋体", 12F);
-            this.xrRichText1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 40.97222F);
-            this.xrRichText1.Name = "xrRichText1";
-            this.xrRichText1.SerializableRtfString = resources.GetString("xrRichText1.SerializableRtfString");
-            this.xrRichText1.SizeF = new System.Drawing.SizeF(626.7717F, 94.44444F);
-            this.xrRichText1.StylePriority.UseFont = false;
             // 
             // xrRichText2
             // 
@@ -453,7 +441,7 @@
             this.UpTolLmtStr.Expression = "FormatString(Concat(\'{0:F\',[decPlaces],\'}\'), ToDecimal([upTolLmt]))";
             this.UpTolLmtStr.Name = "UpTolLmtStr";
             // 
-            // raw_insp_report
+            // raw_insp_master_report
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
             this.TopMargin,
@@ -476,7 +464,6 @@
             this.PageWidthF = 826.7717F;
             this.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.A4;
             this.Version = "25.2";
-            ((System.ComponentModel.ISupportInitialize)(this.xrRichText1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrRichText2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
@@ -491,7 +478,6 @@
         private DevExpress.XtraReports.UI.DetailBand Detail;
         private DevExpress.DataAccess.Json.JsonDataSource jsonDataSource1;
         private DevExpress.XtraReports.UI.ReportHeaderBand ReportHeader;
-        private DevExpress.XtraReports.UI.XRRichText xrRichText1;
         private DevExpress.XtraReports.UI.XRRichText xrRichText2;
         private DevExpress.XtraReports.UI.DetailReportBand DetailReport;
         private DevExpress.XtraReports.UI.DetailBand Detail1;
