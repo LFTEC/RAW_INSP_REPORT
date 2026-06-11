@@ -8,6 +8,8 @@ namespace SAP.Report.controller
     public interface ISapApiController
     {
         Task<string?> GetPurchaseOrderInspectionDataAsync(string purchaseOrder);
+
+        Task<string?> GetInspectionPlanCharsAsync(string taskGroup, string groupCounter);
     }
     public class SapApiController: ISapApiController
     {
@@ -24,6 +26,13 @@ namespace SAP.Report.controller
             
             var content = GetPayload("API_RAW_ORDER_INSP", data);
 
+            return await PostAsync(content);
+        }
+
+        public async Task<string?> GetInspectionPlanCharsAsync(string taskGroup, string groupCounter)
+        {
+            var data = new JsonObject { ["taskGroup"] = taskGroup, ["groupCounter"] = groupCounter };
+            var content = GetPayload("API_RAW_MASTER_INSP", data);
             return await PostAsync(content);
         }
 

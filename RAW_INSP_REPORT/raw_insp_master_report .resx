@@ -117,199 +117,53 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="customJsonSource2.Json" xml:space="preserve">
+  <data name="xrRichText2.SerializableRtfString" xml:space="preserve">
+    <value>ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AewBcAGYAMgAgAEMAYQBtAGIAcgBpAGEAIABNAGEAdABoADsAfQB7AFwAZgAzAFwAZgBjAGgAYQByAHMAZQB0ADEAMwA0ACAAXAAnAGMAYgBcACcAYwBlAFwAJwBjAGMAXAAnAGUANQA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADEAXABrAGUAcgBuAGkAbgBnADIAfQB7AFwAKgBcAGQAZQBmAHAAYQBwACAAXAB3AGkAZABjAHQAbABwAGEAcgB9AHsAXABzAHQAeQBsAGUAcwBoAGUAZQB0ACAAewBcAHMAbgBlAHgAdAAwAFwAcwBxAGYAbwByAG0AYQB0AFwAcQBqAFwAZgAxAFwAZgBzADIAMQBcAGwAYQBuAGcAMQAwADMAMwBcAGwAYQBuAGcAZgBlADEAMAAzADMAXABrAGUAcgBuAGkAbgBnADIAIABOAG8AcgBtAGEAbAA7AH0AewBcACoAXABjAHMAMQBcAGYAMQBcAGYAcwAyADEAXABrAGUAcgBuAGkAbgBnADIAXABjAGYAMQAgAEQAZQBmAGEAdQBsAHQAIABQAGEAcgBhAGcAcgBhAHAAaAAgAEYAbwBuAHQAOwB9AHsAXAAqAFwAYwBzADIAXABzAGIAYQBzAGUAZABvAG4AMQBcAGYAMQBcAGYAcwAyADEAXABrAGUAcgBuAGkAbgBnADIAXABjAGYAMQAgAEwAaQBuAGUAIABOAHUAbQBiAGUAcgA7AH0AewBcACoAXABjAHMAMwBcAGYAMQBcAGYAcwAyADEAXAB1AGwAXABrAGUAcgBuAGkAbgBnADIAXABjAGYAMgAgAEgAeQBwAGUAcgBsAGkAbgBrADsAfQB7AFwAKgBcAHQAcwA0AFwAdABzAHIAbwB3AGQAXABmADEAXABmAHMAMgAxAFwAawBlAHIAbgBpAG4AZwAyAFwAcQBsAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAGwAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAbAAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBiADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAcgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZAByADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHQAMwBcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAATgBvAHIAbQBhAGwAIABUAGEAYgBsAGUAOwB9AHsAXAAqAFwAdABzADUAXAB0AHMAcgBvAHcAZABcAHMAYgBhAHMAZQBkAG8AbgA0AFwAZgAxAFwAZgBzADIAMQBcAGsAZQByAG4AaQBuAGcAMgBcAHEAbABcAHQAcgBiAHIAZAByAHQAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAbABcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgBiAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAHIAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAaABcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgB2AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAcgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZAByADEAMAA4AFwAdABzAHYAZQByAHQAYQBsAHQAXABjAGwAdAB4AGwAcgB0AGIAIABUAGEAYgBsAGUAIABTAGkAbQBwAGwAZQAgADEAOwB9AH0AewBcACoAXABsAGkAcwB0AG8AdgBlAHIAcgBpAGQAZQB0AGEAYgBsAGUAfQB7AFwAbQBtAGEAdABoAFAAcgBcAG0AYgByAGsAQgBpAG4AMABcAG0AYgByAGsAQgBpAG4AUwB1AGIAMABcAG0AZABlAGYASgBjADEAXABtAGQAaQBzAHAARABlAGYAMQBcAG0AaQBuAHQAZQByAFMAcAAwAFwAbQBpAG4AdABMAGkAbQAwAFwAbQBpAG4AdAByAGEAUwBwADAAXABtAG0AYQB0AGgARgBvAG4AdAAyAFwAbQBuAGEAcgB5AEwAaQBtADEAXABtAHAAbwBzAHQAUwBwADAAXABtAHAAcgBlAFMAcAAwAFwAbQByAE0AYQByAGcAaQBuADAAXABtAHMAbQBhAGwAbABGAHIAYQBjADAAXABtAHcAcgBhAHAASQBuAGQAZQBuAHQAMQA0ADQAMABcAG0AdwByAGEAcABSAGkAZwBoAHQAMAB9AFwAbgBvAHUAaQBjAG8AbQBwAGEAdABcAGgAdABtAGEAdQB0AHMAcABcAHMAcABsAHkAdAB3AG4AaQBuAGUAXABhAGwAbgB0AGIAbABpAG4AZABcAHMAcABsAHQAcABnAHAAYQByAFwAbgBvAGcAcgBvAHcAYQB1AHQAbwBmAGkAdABcAHUAdABpAG4AbABcAG4AbwB0AGIAcgBrAGMAbgBzAHQAZgByAGMAdABiAGwAXABuAG8AYgByAGsAdwByAHAAdABiAGwAXABmAHQAbgBsAHkAdAB3AG4AaQBuAGUAXABuAG8AdABjAHYAYQBzAHAAXABuAGUAdwB0AGIAbABzAHQAeQByAHUAbABzAFwAdAByAGEAYwBrAG0AbwB2AGUAcwAwAFwAZABlAGYAdABhAGIANAAyADAAXABmAG8AcgBtAHMAaABhAGQAZQBcAHAAYQByAGQAXABwAGwAYQBpAG4AXABxAGMAXABzAGwAMwA2ADAAXABzAGwAbQB1AGwAdAAxAFwAcwBhADEAMgAwAHsAXABmADMAXABmAHMAMgA4AFwAbABhAG4AZwAxADAAMwAzAFwAbABhAG4AZwBmAGUAMQAwADMAMwBcAGsAZQByAG4AaQBuAGcAMgBcAGMAZgAxACAAXAB1ADEAOQA5ADcANQA/AFwAdQAyADEAMwAyADYAPwBcAHUAMgAxADIANwAwAD8AXAB1ADIAMwAzADkAOAA/AFwAdQAyADAAMwA3ADkAPwBcAHUAMgA0ADIAMQAyAD8AXAB1ADIAMQA4ADMAMAA/AFwAdQAyADAAMQAzADUAPwBcAHUAMgAxADYAOQA3AD8AXAB1AC0AMgA5ADQAMAAwAD8AXAB1AC0AMgA4ADIAMAA5AD8AXAB1ADIANQAyADEANgA/AFwAdQAyADYANAAxADUAPwBcAHUALQAzADAAMwAzADUAPwBcAHUAMgA3ADcAMQA0AD8AfQB7AFwAZgAzAFwAZgBzADIAOABcAGwAYQBuAGcAMgAwADUAMgBcAGwAYQBuAGcAZgBlADIAMAA1ADIAXABrAGUAcgBuAGkAbgBnADIAXABjAGYAMQAgACAALQAgAH0AewBcAGYAMwBcAGYAcwAyADgAXABsAGEAbgBnADIAMAA1ADIAXABsAGEAbgBnAGYAZQAyADAANQAyAFwAawBlAHIAbgBpAG4AZwAyAFwAYwBmADEAIABcAHUAMgA4ADQAMwA2AD8AXAB1ADMAMQAwADMANAA/AH0AXABmADMAXABmAHMAMgA4AFwAbABhAG4AZwAxADAAMwAzAFwAbABhAG4AZwBmAGUAMQAwADMAMwBcAGsAZQByAG4AaQBuAGcAMgBcAGMAZgAxAFwAcABhAHIAfQA=</value>
+  </data>
+  <data name="customJsonSource1.Json" xml:space="preserve">
     <value>{
-  "number": "4500002130",
-  "items": [
+  "taskGroup": "R0000007",
+  "groupCounter": "05",
+  "material": "5000001",
+  "materialDesc": "测试物料",
+  "vendor": "6900001",
+  "vendorName": "测试供应商",
+  "workCenter": "WC001",
+  "workCenterDesc": "测试工作中心",
+  "plant": "1030",
+  "plantName": "测试工厂",
+  "tradeMode": "FT",
+  "tradeModeDesc": "外贸",
+  "inspChars": [
     {
-      "itemId": "00010",
-      "material": "5000001",
-      "materialDesc": "纯苯",
-      "taskGroup": "R0000007",
-      "groupCounter": "02",
-      "inspChars": [
-        {
-          "itemId": "0010",
-          "quantitativeInd": true,
-          "mstrChar": "WH_PH",
-          "charDescr": "Ph值",
-          "decPlaces": 1,
-          "measUnit": "To",
-          "upTolLmt": "",
-          "lwTolLmt": "10",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": ""
-        },
-        {
-          "itemId": "0020",
-          "quantitativeInd": true,
-          "mstrChar": "WH_PH",
-          "charDescr": "酸值",
-          "decPlaces": 1,
-          "measUnit": "",
-          "upTolLmt": "100",
-          "lwTolLmt": "",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": ""
-        },
-        {
-          "itemId": "0030",
-          "quantitativeInd": true,
-          "mstrChar": "WH_PH",
-          "charDescr": "Ph值",
-          "decPlaces": 1,
-          "measUnit": "",
-          "upTolLmt": "11",
-          "lwTolLmt": "10",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": ""
-        },
-        {
-          "itemId": "0040",
-          "quantitativeInd": false,
-          "mstrChar": "WH_PH",
-          "charDescr": "外观",
-          "decPlaces": 1,
-          "measUnit": "",
-          "upTolLmt": "",
-          "lwTolLmt": "",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": "澄清液体"
-        }
-      ]
+      "itemId": "0010",
+      "quantitativeInd": true,
+      "mstrChar": "WH_PH",
+      "charDescr": "Ph值",
+      "decPlaces": 1,
+      "measUnit": "",
+      "upTolLmt": "7.5",
+      "lwTolLmt": "7.1",
+      "categoryName": "试纸检测",
+      "targetValue": "",
+      "qualitativeAddTxt": ""
     },
     {
-      "itemId": "00020",
-      "material": "5000002",
-      "materialDesc": "甲苯",
-      "taskGroup": "R0000007",
-      "groupCounter": "02",
-      "inspChars": [
-        {
-          "itemId": "0010",
-          "quantitativeInd": true,
-          "mstrChar": "WH_PH",
-          "charDescr": "Ph值",
-          "decPlaces": 1,
-          "measUnit": "",
-          "upTolLmt": "",
-          "lwTolLmt": "",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": ""
-        },
-        {
-          "itemId": "0020",
-          "quantitativeInd": true,
-          "mstrChar": "WH_PH",
-          "charDescr": "酸值",
-          "decPlaces": 1,
-          "measUnit": "",
-          "upTolLmt": "100",
-          "lwTolLmt": "",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": ""
-        },
-        {
-          "itemId": "0030",
-          "quantitativeInd": true,
-          "mstrChar": "WH_PH",
-          "charDescr": "Ph值",
-          "decPlaces": 1,
-          "measUnit": "",
-          "upTolLmt": "11",
-          "lwTolLmt": "10",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": ""
-        },
-        {
-          "itemId": "0040",
-          "quantitativeInd": true,
-          "mstrChar": "WH_PH",
-          "charDescr": "Ph值",
-          "decPlaces": 1,
-          "measUnit": "",
-          "upTolLmt": "11",
-          "lwTolLmt": "10",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": ""
-        }
-      ]
-    },
-    {
-      "itemId": "00030",
-      "material": "5000006",
-      "materialDesc": "环氧丙烷",
-      "taskGroup": "R0000007",
-      "groupCounter": "02",
-      "inspChars": [
-        {
-          "itemId": "0010",
-          "quantitativeInd": true,
-          "mstrChar": "WH_PH",
-          "charDescr": "Ph值",
-          "decPlaces": 1,
-          "measUnit": "",
-          "upTolLmt": "11",
-          "lwTolLmt": "10",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": ""
-        },
-        {
-          "itemId": "0020",
-          "quantitativeInd": true,
-          "mstrChar": "WH_PH",
-          "charDescr": "酸值",
-          "decPlaces": 1,
-          "measUnit": "",
-          "upTolLmt": "100",
-          "lwTolLmt": "",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": ""
-        },
-        {
-          "itemId": "0030",
-          "quantitativeInd": true,
-          "mstrChar": "WH_PH",
-          "charDescr": "Ph值",
-          "decPlaces": 1,
-          "measUnit": "",
-          "upTolLmt": "11",
-          "lwTolLmt": "10",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": ""
-        },
-        {
-          "itemId": "0040",
-          "quantitativeInd": true,
-          "mstrChar": "WH_PH",
-          "charDescr": "Ph值",
-          "decPlaces": 1,
-          "measUnit": "",
-          "upTolLmt": "11",
-          "lwTolLmt": "10",
-          "categoryName": "暴晒",
-          "targetValue": "",
-          "qualitativeAddTxt": ""
-        }
-      ]
+      "itemId": "0020",
+      "quantitativeInd": true,
+      "mstrChar": "WH_TEST",
+      "charDescr": "测试检验指标",
+      "decPlaces": 2,
+      "measUnit": "MVA",
+      "upTolLmt": "1400",
+      "lwTolLmt": "1200",
+      "categoryName": "",
+      "targetValue": "",
+      "qualitativeAddTxt": "测试内部特征描述"
     }
   ]
 }
 </value>
-  </data>
-  <data name="xrRichText2.SerializableRtfString" xml:space="preserve">
-    <value>ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AewBcAGYAMgAgAEMAYQBtAGIAcgBpAGEAIABNAGEAdABoADsAfQB7AFwAZgAzAFwAZgBjAGgAYQByAHMAZQB0ADEAMwA0ACAAXAAnAGMAYgBcACcAYwBlAFwAJwBjAGMAXAAnAGUANQA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADEAXABrAGUAcgBuAGkAbgBnADIAfQB7AFwAKgBcAGQAZQBmAHAAYQBwACAAXAB3AGkAZABjAHQAbABwAGEAcgB9AHsAXABzAHQAeQBsAGUAcwBoAGUAZQB0ACAAewBcAHMAbgBlAHgAdAAwAFwAcwBxAGYAbwByAG0AYQB0AFwAcQBqAFwAZgAxAFwAZgBzADIAMQBcAGwAYQBuAGcAMQAwADMAMwBcAGwAYQBuAGcAZgBlADEAMAAzADMAXABrAGUAcgBuAGkAbgBnADIAIABOAG8AcgBtAGEAbAA7AH0AewBcACoAXABjAHMAMQBcAGYAMQBcAGYAcwAyADEAXABrAGUAcgBuAGkAbgBnADIAXABjAGYAMQAgAEQAZQBmAGEAdQBsAHQAIABQAGEAcgBhAGcAcgBhAHAAaAAgAEYAbwBuAHQAOwB9AHsAXAAqAFwAYwBzADIAXABzAGIAYQBzAGUAZABvAG4AMQBcAGYAMQBcAGYAcwAyADEAXABrAGUAcgBuAGkAbgBnADIAXABjAGYAMQAgAEwAaQBuAGUAIABOAHUAbQBiAGUAcgA7AH0AewBcACoAXABjAHMAMwBcAGYAMQBcAGYAcwAyADEAXAB1AGwAXABrAGUAcgBuAGkAbgBnADIAXABjAGYAMgAgAEgAeQBwAGUAcgBsAGkAbgBrADsAfQB7AFwAKgBcAHQAcwA0AFwAdABzAHIAbwB3AGQAXABmADEAXABmAHMAMgAxAFwAawBlAHIAbgBpAG4AZwAyAFwAcQBsAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAGwAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAbAAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBiADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAcgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZAByADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHQAMwBcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAATgBvAHIAbQBhAGwAIABUAGEAYgBsAGUAOwB9AHsAXAAqAFwAdABzADUAXAB0AHMAcgBvAHcAZABcAHMAYgBhAHMAZQBkAG8AbgA0AFwAZgAxAFwAZgBzADIAMQBcAGsAZQByAG4AaQBuAGcAMgBcAHEAbABcAHQAcgBiAHIAZAByAHQAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAbABcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgBiAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAHIAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAaABcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgB2AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAcgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZAByADEAMAA4AFwAdABzAHYAZQByAHQAYQBsAHQAXABjAGwAdAB4AGwAcgB0AGIAIABUAGEAYgBsAGUAIABTAGkAbQBwAGwAZQAgADEAOwB9AH0AewBcACoAXABsAGkAcwB0AG8AdgBlAHIAcgBpAGQAZQB0AGEAYgBsAGUAfQB7AFwAbQBtAGEAdABoAFAAcgBcAG0AYgByAGsAQgBpAG4AMABcAG0AYgByAGsAQgBpAG4AUwB1AGIAMABcAG0AZABlAGYASgBjADEAXABtAGQAaQBzAHAARABlAGYAMQBcAG0AaQBuAHQAZQByAFMAcAAwAFwAbQBpAG4AdABMAGkAbQAwAFwAbQBpAG4AdAByAGEAUwBwADAAXABtAG0AYQB0AGgARgBvAG4AdAAyAFwAbQBuAGEAcgB5AEwAaQBtADEAXABtAHAAbwBzAHQAUwBwADAAXABtAHAAcgBlAFMAcAAwAFwAbQByAE0AYQByAGcAaQBuADAAXABtAHMAbQBhAGwAbABGAHIAYQBjADAAXABtAHcAcgBhAHAASQBuAGQAZQBuAHQAMQA0ADQAMABcAG0AdwByAGEAcABSAGkAZwBoAHQAMAB9AFwAbgBvAHUAaQBjAG8AbQBwAGEAdABcAGgAdABtAGEAdQB0AHMAcABcAHMAcABsAHkAdAB3AG4AaQBuAGUAXABhAGwAbgB0AGIAbABpAG4AZABcAHMAcABsAHQAcABnAHAAYQByAFwAbgBvAGcAcgBvAHcAYQB1AHQAbwBmAGkAdABcAHUAdABpAG4AbABcAG4AbwB0AGIAcgBrAGMAbgBzAHQAZgByAGMAdABiAGwAXABuAG8AYgByAGsAdwByAHAAdABiAGwAXABmAHQAbgBsAHkAdAB3AG4AaQBuAGUAXABuAG8AdABjAHYAYQBzAHAAXABuAGUAdwB0AGIAbABzAHQAeQByAHUAbABzAFwAdAByAGEAYwBrAG0AbwB2AGUAcwAwAFwAZABlAGYAdABhAGIANAAyADAAXABmAG8AcgBtAHMAaABhAGQAZQBcAHAAYQByAGQAXABwAGwAYQBpAG4AXABxAGMAXABzAGwAMwA2ADAAXABzAGwAbQB1AGwAdAAxAFwAcwBhADEAMgAwAHsAXABmADMAXABmAHMAMgA4AFwAbABhAG4AZwAxADAAMwAzAFwAbABhAG4AZwBmAGUAMQAwADMAMwBcAGsAZQByAG4AaQBuAGcAMgBcAGMAZgAxACAAXAB1ADEAOQA5ADcANQA/AFwAdQAyADEAMwAyADYAPwBcAHUAMgAxADIANwAwAD8AXAB1ADIAMwAzADkAOAA/AFwAdQAyADAAMwA3ADkAPwBcAHUAMgA0ADIAMQAyAD8AXAB1ADIAMQA4ADMAMAA/AFwAdQAyADAAMQAzADUAPwBcAHUAMgAxADYAOQA3AD8AXAB1AC0AMgA5ADQAMAAwAD8AXAB1AC0AMgA4ADIAMAA5AD8AXAB1ADIANQAyADEANgA/AFwAdQAyADYANAAxADUAPwBcAHUALQAzADAAMwAzADUAPwBcAHUAMgA3ADcAMQA0AD8AfQB7AFwAZgAzAFwAZgBzADIAOABcAGwAYQBuAGcAMgAwADUAMgBcAGwAYQBuAGcAZgBlADIAMAA1ADIAXABrAGUAcgBuAGkAbgBnADIAXABjAGYAMQAgACAALQAgAH0AewBcAGYAMwBcAGYAcwAyADgAXABsAGEAbgBnADIAMAA1ADIAXABsAGEAbgBnAGYAZQAyADAANQAyAFwAawBlAHIAbgBpAG4AZwAyAFwAYwBmADEAIABcAHUAMgA4ADQAMwA2AD8AXAB1ADMAMQAwADMANAA/AH0AXABmADMAXABmAHMAMgA4AFwAbABhAG4AZwAxADAAMwAzAFwAbABhAG4AZwBmAGUAMQAwADMAMwBcAGsAZQByAG4AaQBuAGcAMgBcAGMAZgAxAFwAcABhAHIAfQA=</value>
   </data>
   <data name="quantitativeTech.Expression" xml:space="preserve">
     <value>Iif( Not (IsNullOrEmpty([lwTolLmt]) Or IsNullOrEmpty([upTolLmt])) Or
