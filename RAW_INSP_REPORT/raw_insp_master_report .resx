@@ -171,6 +171,7 @@
 Concat([lwTolLmtStr],' - ',[UpTolLmtStr] ), 
 Iif(IsNullOrEmpty([lwTolLmt]), Concat('≤',[UpTolLmtStr] ),  Concat('≥',[lwTolLmtStr] )) )
 
+
 </value>
   </data>
 </root>
