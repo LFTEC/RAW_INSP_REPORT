@@ -268,7 +268,7 @@
             this.xrTableCell13.Borders = ((DevExpress.XtraPrinting.BorderSide)((DevExpress.XtraPrinting.BorderSide.Right | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrTableCell13.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif(IsNullOrEmpty([measUnit]), \'-\', [measUnit])")});
-            this.xrTableCell13.Font = new DevExpress.Drawing.DXFont("宋体", 12F);
+            this.xrTableCell13.Font = new DevExpress.Drawing.DXFont("STIX Two Math", 12F);
             this.xrTableCell13.Multiline = true;
             this.xrTableCell13.Name = "xrTableCell13";
             this.xrTableCell13.Padding = new DevExpress.XtraPrinting.PaddingInfo(5F, 2F, 0F, 0F, 100F);
