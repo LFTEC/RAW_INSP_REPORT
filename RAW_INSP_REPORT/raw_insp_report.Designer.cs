@@ -211,12 +211,12 @@
             // 
             // xrTable2
             // 
-            this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(87.5F, 0F);
+            this.xrTable2.LocationFloat = new DevExpress.Utils.PointFloat(2.288818E-05F, 0F);
             this.xrTable2.Name = "xrTable2";
             this.xrTable2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2F, 2F, 0F, 0F, 100F);
             this.xrTable2.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow3});
-            this.xrTable2.SizeF = new System.Drawing.SizeF(456.4816F, 27.77777F);
+            this.xrTable2.SizeF = new System.Drawing.SizeF(626.7716F, 27.77777F);
             // 
             // xrTableRow3
             // 
@@ -244,7 +244,7 @@
             this.xrTableCell10.StylePriority.UseTextAlignment = false;
             this.xrTableCell10.Text = "xrTableCell10";
             this.xrTableCell10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            this.xrTableCell10.Weight = 0.73784731818570393D;
+            this.xrTableCell10.Weight = 1.3940971180699611D;
             // 
             // xrTableCell11
             // 
@@ -295,7 +295,7 @@
             this.xrTableCell12.StylePriority.UseTextAlignment = false;
             this.xrTableCell12.Text = "xrTableCell12";
             this.xrTableCell12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            this.xrTableCell12.Weight = 1.2309027067530121D;
+            this.xrTableCell12.Weight = 1.851828210389401D;
             // 
             // ReportHeader1
             // 
@@ -306,12 +306,12 @@
             // 
             // xrTable1
             // 
-            this.xrTable1.LocationFloat = new DevExpress.Utils.PointFloat(87.5F, 0F);
+            this.xrTable1.LocationFloat = new DevExpress.Utils.PointFloat(7.629395E-06F, 0F);
             this.xrTable1.Name = "xrTable1";
             this.xrTable1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2F, 2F, 0F, 0F, 100F);
             this.xrTable1.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.xrTableRow2});
-            this.xrTable1.SizeF = new System.Drawing.SizeF(456.4815F, 30.76388F);
+            this.xrTable1.SizeF = new System.Drawing.SizeF(626.7717F, 30.76388F);
             this.xrTable1.StylePriority.UseTextAlignment = false;
             this.xrTable1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
@@ -340,7 +340,7 @@
             this.xrTableCell6.StylePriority.UseTextAlignment = false;
             this.xrTableCell6.Text = "指标名称";
             this.xrTableCell6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell6.Weight = 0.78849720302380244D;
+            this.xrTableCell6.Weight = 1.4897958239866496D;
             // 
             // xrTableCell7
             // 
@@ -391,7 +391,7 @@
             this.xrTableCell9.StylePriority.UseTextAlignment = false;
             this.xrTableCell9.Text = "技术标准要求";
             this.xrTableCell9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell9.Weight = 1.3153986659671943D;
+            this.xrTableCell9.Weight = 1.9789492132104687D;
             // 
             // ReportFooter
             // 
